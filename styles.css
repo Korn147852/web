@@ -1,0 +1,95 @@
+body {
+    margin: 0; /*ลบระยะห่างจากขอบทั้งหมด*/
+    background-color: #e7e7e7;/*สีพื้นหลัง*/
+}
+.lol{
+    text-align: center; /*จัดข้อความกลาง*/
+}
+.ted {
+    display: flex;
+    gap: 30px; /* ช่องว่างระหว่างหัวข้อ */
+    height: 60px; /* กำหนดความสูงของแท็บ */
+    font-size: 20px; /* ปรับขนาดตัว */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    align-items: center; /* จัดกลางในแนวตั้ง */
+    padding: 0 20px; /* เพิ่มระยะห่างด้านในซ้ายและขวา */
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.1); /*เส้นเงา*/
+    position: fixed; /*แท็บอยู่บน*/
+    top: 0; /*ปรับติด*/
+    left: 0; /*ปรับติด*/
+    right: 0; /*ปรับติด*/
+    position: relative; /*ด้านบนหน้าจอ*/
+    z-index: 1; 
+}
+.ted img{
+    width: 50px;/*กว้าง*/
+    height: 50px;/*สูง*/
+}
+.ted a{
+    color: black; /*สี*/
+    text-decoration: none; /*ลบเส้นลิงก์*/
+    margin-top: 0px;/*ห่างบน*/
+}
+.information{
+    padding: 30px;
+}
+.information img{
+    position: absolute;
+    top: 100px; /*บน*/
+    left: 600px;/*ขวา*/
+    width: 300px;/*กว้าง*/
+    height: 300px;/*สูง*/
+    
+} 
+.information h1{
+    display: flex;
+    justify-content: center; /*กลางแนวนอน*/
+    align-items: flex-start; /*อยู่ด้านบน*/
+    padding-top: 320px; /*บน*/
+}
+.container h1{
+    display: flex;
+    justify-content: center; /*กลางแนวนอน*/
+    align-items: center; /*กลางแนวตั้ง*/
+}
+.container {
+    max-width: 800px; /*กำหนดความกว้างสูง*/
+    margin: 20px auto; /*จัดกึ่งกลาง*/
+    background-color: #ffffff; /*สีพื้นหลัง*/
+    padding: 50px; /*ช่องว่างภายใน*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*เงาเบลอ*/
+}
+.container p{
+    display: flex;
+    justify-content: center; /*กลางแนวนอน*/
+    align-items: center; /*กลางแนวตั้ง*/
+}
+.container a {
+    text-decoration: none;/*ลบเส้นลิงก์*/
+    color: black; /*เปลี่ยนสี*/
+}
+input, textarea {
+    padding: 10px; /*ขนาด*/
+    border: 1px solid #ccc;/*สี*/ 
+    border-radius: 5px; /**/
+    width: 100%; /**/
+    box-sizing: border-box;/**/
+}
+.lis {
+    display: flex;
+    justify-content: center; /*จัดกึ่งกลางแนวนอน*/
+    align-items: center; /*จัดกึ่งกลางแนวตั้ง*/
+    gap: 200px
+    
+}
+.lis a{
+    text-align: center; /*จัดข้อความกลาง*/
+    color: black;
+    text-decoration: none;
+    font-size: 2vw; /* ขนาดตัวอักษรปรับตามความกว้างหน้าจอ */
+}
+.lis img{
+    padding-top: 150px;
+    width: 200px;/*กว้าง*/
+    height: 200px;/*สูง*/
+}
